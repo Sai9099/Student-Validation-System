@@ -1,0 +1,12 @@
+System.InvalidOperationException: SplitterDistance must be between Panel1MinSize and Width - Panel2MinSize.
+   at System.Windows.Forms.SplitContainer.set_SplitterDistance(Int32 value)
+   at System.Windows.Forms.SplitContainer.ApplyPanel2MinSize(Int32 value)
+   at StudentValidationSystem.Views.AdminDashboardForm.BuildShell() in C:\StudentValidationSystem\Views\AdminDashboardForm.cs:line 35
+   at StudentValidationSystem.Views.AdminDashboardForm..ctor() in C:\StudentValidationSystem\Views\AdminDashboardForm.cs:line 26
+   at StudentValidationSystem.Views.AdminLoginForm.Login() in C:\StudentValidationSystem\Views\AdminLoginForm.cs:line 103
+   at StudentValidationSystem.Views.AdminLoginForm.<>c__DisplayClass7_0.<Build>b__2(Object _, EventArgs _) in C:\StudentValidationSystem\Views\AdminLoginForm.cs:line 73
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)

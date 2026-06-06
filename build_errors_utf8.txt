@@ -1,0 +1,13 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\Views\ProgressControl.cs(5,28): error CS0234: The type or namespace name 'DataVisualization' does not exist in the namespace 'System.Windows.Forms' (are you missing an assembly reference?) [S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\StudentValidationSystem.csproj]
+S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\Views\ProgressControl.cs(13,17): error CS0246: The type or namespace name 'Chart' could not be found (are you missing a using directive or an assembly reference?) [S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\StudentValidationSystem.csproj]
+
+Build FAILED.
+
+S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\Views\ProgressControl.cs(5,28): error CS0234: The type or namespace name 'DataVisualization' does not exist in the namespace 'System.Windows.Forms' (are you missing an assembly reference?) [S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\StudentValidationSystem.csproj]
+S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\Views\ProgressControl.cs(13,17): error CS0246: The type or namespace name 'Chart' could not be found (are you missing a using directive or an assembly reference?) [S:\Student Learning Evidence & Progress Validation System\StudentValidationSystem\StudentValidationSystem.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.96
