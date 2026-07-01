@@ -1,0 +1,12 @@
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'near "DO": syntax error'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at StudentValidationSystem.Database.DBHelper.Execute(SqliteConnection connection, String sql, ValueTuple`2[] parameters) in C:\StudentValidationSystem\Database\DBHelper.cs:line 919
+   at StudentValidationSystem.Database.DBHelper.EnsureStudentModuleRows(SqliteConnection connection) in C:\StudentValidationSystem\Database\DBHelper.cs:line 522
+   at StudentValidationSystem.Database.DBHelper.SeedFacultyDashboardData(SqliteConnection connection) in C:\StudentValidationSystem\Database\DBHelper.cs:line 409
+   at StudentValidationSystem.Database.DBHelper.Initialize() in C:\StudentValidationSystem\Database\DBHelper.cs:line 203
+   at StudentValidationSystem.Program.Run(String[] args) in C:\StudentValidationSystem\Program.cs:line 36
+   at StudentValidationSystem.Program.Main(String[] args) in C:\StudentValidationSystem\Program.cs:line 13
